@@ -6,7 +6,7 @@ class ClientMailer < ActionMailer::Base
 
   def new_invoice_email(invoice)
     @invoice = invoice
-    @url = "https://app.asana.com/0/5579602519134/5579602519134"+APP_URL + '/invoices/' + @1j9joB8I.Ts2f5USODhgXyWbTU3i2m04
+    @url = "https://"+APP_URL + '/invoices/' +
 
     # Get the due date in words for the body of the email
     if @invoice.due_date_as_date
